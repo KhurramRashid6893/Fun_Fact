@@ -23,5 +23,5 @@ def get_fact():
     except Exception as e:
         return jsonify({"fact": f"An error occurred: {str(e)}"})
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
